@@ -33,6 +33,10 @@ urlpatterns = [
     
     # API v1
     path('api/v1/auth/', include('authentication.urls')),
+    path('api/v1/products/', include('products.urls')),
+    path('api/v1/reviews/', include('reviews.urls')),
+    path('api/v1/cart/', include('cart.urls')),
+    path('api/v1/orders/', include('orders.urls')),
     # More app URLs will be added here in next packages
 ]
 
